@@ -1,0 +1,72 @@
+.customers {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+}
+.customers-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customers-card {
+  width: 298px;
+  margin: 0 15px;
+}
+/* .customers-card-content {
+} */
+.customers-card-comment {
+  background-color: rgb(226, 226, 226);
+  border-radius: 7px;
+  padding: 9px 22px 6px 23px;
+  margin: 0 0 22px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.customers-card-triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid rgb(226, 226, 226);
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+}
+.customers-card-comment p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.customers-card-author {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 212px;
+  margin: auto;
+}
+/* .customers-card-author-img {
+} */
+.customers-card-author-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.customers-card-author-discription-name {
+  margin: 0 0 12px;
+}
+.customers-card-author-discription-name p {
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
+.customers-card-author-discription-vacancy p {
+  text-transform: capitalize;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(134, 135, 139);
+}
